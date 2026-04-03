@@ -22,6 +22,11 @@ Route::get('/stocks', function () {
     return view('stocks.index');
 })->name('stocks.index');
 
+// Routes untuk laporan
+Route::get('/reports', function () {
+    return view('reports.index');
+})->name('reports.index');
+
 // Routes untuk user
 Route::get('/users', function () {
     return view('users.index');
