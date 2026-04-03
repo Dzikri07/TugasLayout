@@ -1,9 +1,10 @@
-<header class="bg-white shadow-sm p-4 flex justify-between items-center">
-    <div class="text-lg font-semibold text-gray-700">
+<header class="bg-[#EEEEEE] shadow-sm p-4 flex justify-between items-center border-b-2 border-[#00ADB5]">
+    <div class="text-lg font-semibold text-[#222831]">
         @yield('header-title', 'Dashboard')
     </div>
     <div class="flex items-center space-x-4">
-        <span class="text-gray-600">Admin</span>
-        <img src="https://ui-avatars.com/api/?name=Admin&background=0D8F81&color=fff" class="w-8 h-8 rounded-full">
+        <span class="text-[#393E46] font-medium">Admin</span>
+        <img src="https://ui-avatars.com/api/?name=Admin&background=00ADB5&color=fff&bold=true" 
+             class="w-9 h-9 rounded-full ring-2 ring-[#00ADB5]">
     </div>
 </header>

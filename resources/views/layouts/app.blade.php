@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jayusman Market - @yield('title')</title>
     
-    <!-- Tailwind CSS CDN - Gampang dan langsung jalan -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Optional: Custom CSS jika diperlukan -->
+    
     <!-- <link href="{{ asset('css/custom.css') }}" rel="stylesheet"> -->
 </head>
 <body class="bg-gray-100 font-sans antialiased">
@@ -30,4 +29,4 @@
         </div>
     </div>
 </body>
-</html>
+</html> 
