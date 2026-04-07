@@ -6,7 +6,8 @@
     <title>Jayusman Market - @yield('title')</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/preline@latest/dist/preline.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
     <!-- <link href="{{ asset('css/custom.css') }}" rel="stylesheet"> -->
 </head>
