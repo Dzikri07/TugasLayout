@@ -1,10 +1,13 @@
 Mid Semester Project 
+
 PWL Kelompok 9
+
 IF D 2023
 
 Tampilan Tailwinds css
 
 Pemiliki Repository
+
 Dzikri Muhammad Akbar - 5520123120 
 
 [akun : Arissttelest12 dan Dzikri07]
