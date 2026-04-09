@@ -8,8 +8,8 @@
     <div class="flex justify-between mb-4">
         <h2 class="text-lg font-semibold">Daftar Laporan</h2>
         <div class="space-x-2">
-            <button class="bg-green-500 text-white px-3 py-1 rounded">Export PDF</button>
-            <button class="bg-blue-500 text-white px-3 py-1 rounded">Export Excel</button>
+            <x-button variant="success">Export PDF</x-button>
+            <x-button variant="primary">Export Excel</x-button>
         </div>
     </div>
     
@@ -32,8 +32,8 @@
                 <td class="py-2 px-4 border-b">Rp 45.000.000</td>
                 <td class="py-2 px-4 border-b">2026-04-01</td>
                 <td class="py-2 px-4 border-b">
-                    <button class="text-blue-500">Lihat</button>
-                    <button class="text-green-500 ml-2">Download</button>
+                    <x-button variant="primary-text">Lihat</x-button>
+                    <x-button variant="success-text" class="ml-2">Download</x-button>
                 </td>
             </tr>
             <tr>
@@ -43,8 +43,8 @@
                 <td class="py-2 px-4 border-b">342 Item</td>
                 <td class="py-2 px-4 border-b">2026-04-01</td>
                 <td class="py-2 px-4 border-b">
-                    <button class="text-blue-500">Lihat</button>
-                    <button class="text-green-500 ml-2">Download</button>
+                    <x-button variant="primary-text">Lihat</x-button>
+                    <x-button variant="success-text" class="ml-2">Download</x-button>
                 </td>
             </tr>
             <tr>
@@ -54,8 +54,8 @@
                 <td class="py-2 px-4 border-b">125 Transaksi</td>
                 <td class="py-2 px-4 border-b">2026-04-01</td>
                 <td class="py-2 px-4 border-b">
-                    <button class="text-blue-500">Lihat</button>
-                    <button class="text-green-500 ml-2">Download</button>
+                    <x-button variant="primary-text">Lihat</x-button>
+                    <x-button variant="success-text" class="ml-2">Download</x-button>
                 </td>
             </tr>
             <tr>
@@ -65,8 +65,8 @@
                 <td class="py-2 px-4 border-b">3 Cabang</td>
                 <td class="py-2 px-4 border-b">2026-04-01</td>
                 <td class="py-2 px-4 border-b">
-                    <button class="text-blue-500">Lihat</button>
-                    <button class="text-green-500 ml-2">Download</button>
+                    <x-button variant="primary-text">Lihat</x-button>
+                    <x-button variant="success-text" class="ml-2">Download</x-button>
                 </td>
             </tr>
             <tr>
@@ -76,8 +76,8 @@
                 <td class="py-2 px-4 border-b">8 User</td>
                 <td class="py-2 px-4 border-b">2026-04-01</td>
                 <td class="py-2 px-4 border-b">
-                    <button class="text-blue-500">Lihat</button>
-                    <button class="text-green-500 ml-2">Download</button>
+                    <x-button variant="primary-text">Lihat</x-button>
+                    <x-button variant="success-text" class="ml-2">Download</x-button>
                 </td>
             </tr>
         </tbody>
